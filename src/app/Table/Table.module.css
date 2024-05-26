@@ -1,0 +1,131 @@
+/* Global Styles */
+.container {
+  padding-top: 3%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Search Container Styles */
+.searchContainer {
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.searchTitle {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.searchForm {
+  display: flex;
+  flex-wrap: wrap; /* Allow elements to wrap to the next line */
+  justify-content: flex-start;
+  align-items: center; /* Align items vertically */
+}
+
+.searchInput,
+.searchSelect {
+  margin-right: 10px; /* Add margin between input/select and the button */
+  margin-bottom: 10px; /* Add margin between input/select and the next line */
+}
+
+.searchInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%; /* Adjusted width for better usability */
+  max-width: 300px; /* Added max-width to prevent input from stretching too wide */
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+  font-size: 16px; /* Increased font size for better visibility */
+  outline: none; /* Remove default focus outline */
+}
+
+.searchSelect {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.searchButton {
+  padding: 10px;
+  border: none;
+  background-color: #79b27b;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.tableHeader {
+  background-color: #79b27b;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tableCell {
+  padding: 15px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.tableCell:first-child {
+  border-left: none;
+}
+
+.tableCell:last-child {
+  border-right: none;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.pageButton {
+  padding: 8px 12px;
+  margin: 0 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.pageButton:hover {
+  background-color: #f1f1f1;
+}
+
+.currentPage {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  padding: 10px 14px;
+  border-radius: 6px;
+}
+
+.ellipsis {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+}
